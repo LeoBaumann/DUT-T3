@@ -17,10 +17,6 @@ Dans le cadre du projet tuteuré T3, il nous a été demandé de produire un jeu
 Nous nous sommes basés sur les travaux (T4) des S4 qui eux avaient directement parler aux intervenants. Après une analyse approfondie de leurs projets et notamment du cahier des charges, nous avons réunis assez d’informations et d’idée pour produire notre propre application.
 Nous avons constaté que les projets T4 proposaient des mises en place de lois mais aucun moyen d’en retirer. C’est pourquoi nous avons de suite été enchanté par l’idée de le proposer dans notre application.
 
-## Organisations :hourglass_flowing_sand:
-
-A la place du milestone et issues nous avons utilisé un trello : [Trello](https://trello.com/b/BDwof6mO/t3)
-
 ## Fonctionnalités :white_check_mark:
 
 ![Logo](./Images/screen_debut.PNG)
