@@ -1,0 +1,195 @@
+\hypertarget{class_t3_1_1_ctrl_humain}{}\doxysection{T3.\+Ctrl\+Humain Class Reference}
+\label{class_t3_1_1_ctrl_humain}\index{T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t3_1_1_ctrl_humain_ae47f07eb1ef075e8f2d18093ddae7776}{reset\+Ctrl\+Humain}} ()
+\begin{DoxyCompactList}\small\item\em Méthode qui permet de reset les deux listes en attribut \end{DoxyCompactList}\item 
+Array\+List \mbox{\hyperlink{class_t3_1_1_ctrl_humain_a82ecc32d81c4885f5e0e75a3283056b3}{get\+Liste\+Humain}} ()
+\begin{DoxyCompactList}\small\item\em Méthode qui permet de recuperer la liste de tous les humains \end{DoxyCompactList}\item 
+Array\+List \mbox{\hyperlink{class_t3_1_1_ctrl_humain_aec781981fa78fef930d0cd8c95feeb91}{get\+Liste\+Roi}} ()
+\begin{DoxyCompactList}\small\item\em Méthode qui permet de recuperer la liste des différents rois ou reines lors de la partie en cours \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_t3_1_1_roi}{Roi}} \mbox{\hyperlink{class_t3_1_1_ctrl_humain_a9624c2f02e1250ae70371a1e7e7519f8}{get\+Roi}} ()
+\begin{DoxyCompactList}\small\item\em Méthode qui permet de recuperer le \mbox{\hyperlink{class_t3_1_1_roi}{Roi}} en cours \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_t3_1_1_pretendant}{Pretendant}} \mbox{\hyperlink{class_t3_1_1_ctrl_humain_a2e28ded546574be27224c72d90a9eb21}{creer\+Pretendant}} (\mbox{\hyperlink{class_t3_1_1_humain}{Humain}} parent)
+\begin{DoxyCompactList}\small\item\em Méthode qui permet de creer un prétendant à un humain \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_t3_1_1_roi}{Roi}} \mbox{\hyperlink{class_t3_1_1_ctrl_humain_a9511e219276698d5641ad0f98896b06a}{creer\+Roi}} (int annee\+Trone, String nom, String prenom, int genre, int age)
+\begin{DoxyCompactList}\small\item\em Méthode qui permet de créer un roi en fonction de ces paramètres \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_t3_1_1_ctrl_humain_aafd99b6f5577e0b542816e12ad13c2f8}{avancer\+Temps}} ()
+\begin{DoxyCompactList}\small\item\em Méthode qui permet d\textquotesingle{}augmenter le temps jusqu\textquotesingle{}a ce que le roi meurs \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_t3_1_1_ctrl_humain_ae6414d98f0a61108a6ea24a5ae0156e2}{mort\+Humain}} (\mbox{\hyperlink{class_t3_1_1_humain}{Humain}} humain)
+\begin{DoxyCompactList}\small\item\em Méthode qui permet de tuer un humain \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_t3_1_1_ctrl_humain_a7f8f4b70dc42939b10e68cbf6c67e8e3}{nettoyer\+Liste\+Humain}} ()
+\begin{DoxyCompactList}\small\item\em Méthode qui permet d\textquotesingle{}enlever les humains non géré par l\textquotesingle{}application de la liste humain \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_t3_1_1_pretendant}{Pretendant}} \mbox{\hyperlink{class_t3_1_1_ctrl_humain_a550118110965ecfb9e53db034f3c9aad}{changer\+Roi}} ()
+\begin{DoxyCompactList}\small\item\em Méthode qui permet de changer le roi en fonction des lois votées \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_t3_1_1_ctrl_humain}{Ctrl\+Humain}} \mbox{\hyperlink{class_t3_1_1_ctrl_humain_abeab259b9b83de1412817e611312b289}{get\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em Méthode qui permet de recuperer l\textquotesingle{}instance de la classe \mbox{\hyperlink{class_t3_1_1_ctrl_humain}{Ctrl\+Humain}} La creer si elle n\textquotesingle{}est pas encore crée \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_aafd99b6f5577e0b542816e12ad13c2f8}\label{class_t3_1_1_ctrl_humain_aafd99b6f5577e0b542816e12ad13c2f8}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!avancerTemps@{avancerTemps}}
+\index{avancerTemps@{avancerTemps}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{avancerTemps()}{avancerTemps()}}
+{\footnotesize\ttfamily int T3.\+Ctrl\+Humain.\+avancer\+Temps (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet d\textquotesingle{}augmenter le temps jusqu\textquotesingle{}a ce que le roi meurs 
+
+\begin{DoxyReturn}{Returns}
+Nb d\textquotesingle{}année qui ont été avancé
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_a550118110965ecfb9e53db034f3c9aad}\label{class_t3_1_1_ctrl_humain_a550118110965ecfb9e53db034f3c9aad}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!changerRoi@{changerRoi}}
+\index{changerRoi@{changerRoi}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{changerRoi()}{changerRoi()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t3_1_1_pretendant}{Pretendant}} T3.\+Ctrl\+Humain.\+changer\+Roi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet de changer le roi en fonction des lois votées 
+
+\begin{DoxyReturn}{Returns}
+Retourne le prétendant qui va devenir roi
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_a2e28ded546574be27224c72d90a9eb21}\label{class_t3_1_1_ctrl_humain_a2e28ded546574be27224c72d90a9eb21}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!creerPretendant@{creerPretendant}}
+\index{creerPretendant@{creerPretendant}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{creerPretendant()}{creerPretendant()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t3_1_1_pretendant}{Pretendant}} T3.\+Ctrl\+Humain.\+creer\+Pretendant (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t3_1_1_humain}{Humain}}}]{parent }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet de creer un prétendant à un humain 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & \mbox{\hyperlink{class_t3_1_1_humain}{Humain}} qui aura pour enfant le prétendant crée\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Prétendant créé
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_a9511e219276698d5641ad0f98896b06a}\label{class_t3_1_1_ctrl_humain_a9511e219276698d5641ad0f98896b06a}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!creerRoi@{creerRoi}}
+\index{creerRoi@{creerRoi}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{creerRoi()}{creerRoi()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t3_1_1_roi}{Roi}} T3.\+Ctrl\+Humain.\+creer\+Roi (\begin{DoxyParamCaption}\item[{int}]{annee\+Trone,  }\item[{String}]{nom,  }\item[{String}]{prenom,  }\item[{int}]{genre,  }\item[{int}]{age }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet de créer un roi en fonction de ces paramètres 
+
+
+\begin{DoxyParams}{Parameters}
+{\em annee\+Trone} & Annee a laquelle le nouveau roi récupère le trone\\
+\hline
+{\em nom} & Nom du nouveau roi\\
+\hline
+{\em prenom} & Prénom du nouveau roi\\
+\hline
+{\em genre} & Genre du nouveau roi\\
+\hline
+{\em age} & Age du nouveau roi\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_abeab259b9b83de1412817e611312b289}\label{class_t3_1_1_ctrl_humain_abeab259b9b83de1412817e611312b289}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_t3_1_1_ctrl_humain}{Ctrl\+Humain}} T3.\+Ctrl\+Humain.\+get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Méthode qui permet de recuperer l\textquotesingle{}instance de la classe \mbox{\hyperlink{class_t3_1_1_ctrl_humain}{Ctrl\+Humain}} La creer si elle n\textquotesingle{}est pas encore crée 
+
+\begin{DoxyReturn}{Returns}
+Instance de la classe \mbox{\hyperlink{class_t3_1_1_ctrl_humain}{Ctrl\+Humain}}
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_a82ecc32d81c4885f5e0e75a3283056b3}\label{class_t3_1_1_ctrl_humain_a82ecc32d81c4885f5e0e75a3283056b3}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!getListeHumain@{getListeHumain}}
+\index{getListeHumain@{getListeHumain}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{getListeHumain()}{getListeHumain()}}
+{\footnotesize\ttfamily Array\+List T3.\+Ctrl\+Humain.\+get\+Liste\+Humain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet de recuperer la liste de tous les humains 
+
+\begin{DoxyReturn}{Returns}
+Liste des humains de la partie en cours
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_aec781981fa78fef930d0cd8c95feeb91}\label{class_t3_1_1_ctrl_humain_aec781981fa78fef930d0cd8c95feeb91}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!getListeRoi@{getListeRoi}}
+\index{getListeRoi@{getListeRoi}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{getListeRoi()}{getListeRoi()}}
+{\footnotesize\ttfamily Array\+List T3.\+Ctrl\+Humain.\+get\+Liste\+Roi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet de recuperer la liste des différents rois ou reines lors de la partie en cours 
+
+\begin{DoxyReturn}{Returns}
+Liste de tous les rois ou reines de la partie
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_a9624c2f02e1250ae70371a1e7e7519f8}\label{class_t3_1_1_ctrl_humain_a9624c2f02e1250ae70371a1e7e7519f8}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!getRoi@{getRoi}}
+\index{getRoi@{getRoi}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{getRoi()}{getRoi()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t3_1_1_roi}{Roi}} T3.\+Ctrl\+Humain.\+get\+Roi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet de recuperer le \mbox{\hyperlink{class_t3_1_1_roi}{Roi}} en cours 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_t3_1_1_roi}{Roi}} à l\textquotesingle{}instant t
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_ae6414d98f0a61108a6ea24a5ae0156e2}\label{class_t3_1_1_ctrl_humain_ae6414d98f0a61108a6ea24a5ae0156e2}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!mortHumain@{mortHumain}}
+\index{mortHumain@{mortHumain}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{mortHumain()}{mortHumain()}}
+{\footnotesize\ttfamily void T3.\+Ctrl\+Humain.\+mort\+Humain (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_t3_1_1_humain}{Humain}}}]{humain }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet de tuer un humain 
+
+
+\begin{DoxyParams}{Parameters}
+{\em humain} & L\textquotesingle{}humain qui doit être tué\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_a7f8f4b70dc42939b10e68cbf6c67e8e3}\label{class_t3_1_1_ctrl_humain_a7f8f4b70dc42939b10e68cbf6c67e8e3}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!nettoyerListeHumain@{nettoyerListeHumain}}
+\index{nettoyerListeHumain@{nettoyerListeHumain}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{nettoyerListeHumain()}{nettoyerListeHumain()}}
+{\footnotesize\ttfamily void T3.\+Ctrl\+Humain.\+nettoyer\+Liste\+Humain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet d\textquotesingle{}enlever les humains non géré par l\textquotesingle{}application de la liste humain 
+
+\mbox{\Hypertarget{class_t3_1_1_ctrl_humain_ae47f07eb1ef075e8f2d18093ddae7776}\label{class_t3_1_1_ctrl_humain_ae47f07eb1ef075e8f2d18093ddae7776}} 
+\index{T3.CtrlHumain@{T3.CtrlHumain}!resetCtrlHumain@{resetCtrlHumain}}
+\index{resetCtrlHumain@{resetCtrlHumain}!T3.CtrlHumain@{T3.CtrlHumain}}
+\doxysubsubsection{\texorpdfstring{resetCtrlHumain()}{resetCtrlHumain()}}
+{\footnotesize\ttfamily void T3.\+Ctrl\+Humain.\+reset\+Ctrl\+Humain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Méthode qui permet de reset les deux listes en attribut 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documents/\+Table\+Ronde/\+T3/\mbox{\hyperlink{_ctrl_humain_8cs}{Ctrl\+Humain.\+cs}}\end{DoxyCompactItemize}
